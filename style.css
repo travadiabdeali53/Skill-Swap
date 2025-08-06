@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+header {
+  background: #1e40af;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #c7d2fe;
+  font-weight: bold;
+}
+nav a.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+h2, h3 {
+  text-align: center;
+  color: #1e3a8a;
+}
+
+input, select, button {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+input[type="text"], select, input[type="file"] {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.6rem;  
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid #2563eb ;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #1d4ed8;
+}
+.btn.secondary {
+  background: #10b981;
+  color : white;
+  border : none;
+  cursor : pointer;
+  transition: 0.3s;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+.hero-buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  background: #f1f5f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+ul.requests li {
+  background: #f9fafb;
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.skill-tag {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
